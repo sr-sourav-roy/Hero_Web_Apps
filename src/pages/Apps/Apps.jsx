@@ -18,8 +18,10 @@ const Apps = ({ data }) => {
           ))}
         </div>
       </Suspense>
-      <div className="flex justify-center items-center mt-5">
-        <button className="btn btn-dash btn-accent items-center">Accent</button>
+      <div className="flex justify-center items-center mt-8">
+        <button className="btn border-[#9F62F2] text-[#9F62F2] hover:bg-[#9F62F2] hover:text-white p-2 items-center px-10">
+          👏 Show All
+        </button>
       </div>
     </div>
   );

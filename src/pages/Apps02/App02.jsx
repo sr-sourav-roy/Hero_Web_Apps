@@ -1,9 +1,8 @@
 import React from "react";
 import { Download } from "lucide-react";
 import { Star } from "lucide-react";
-
-const App = ({ singleData }) => {
-  const { image, title, downloads, ratingAvg } = singleData;
+const App02 = ({ appData }) => {
+  const { image, title, downloads, ratingAvg } = appData;
   return (
     <div className="card bg-base-100 shadow-sm">
       <figure>
@@ -28,4 +27,4 @@ const App = ({ singleData }) => {
   );
 };
 
-export default App;
+export default App02;

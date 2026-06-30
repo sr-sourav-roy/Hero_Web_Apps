@@ -268,5 +268,23 @@
       { "name": "4 star", "count": 520000 },
       { "name": "5 star", "count": 880000 }
     ]
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Spotify",
+    "companyName": "Spotify",
+    "description": "Music, podcasts and playlists streaming.",
+    "size": 68,
+    "reviews": 3850000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 145000 },
+      { "name": "3 star", "count": 480000 },
+      { "name": "4 star", "count": 1120000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
   }
 ]
