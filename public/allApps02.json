@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/id/20/300/300",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "description": "Share photos, videos, stories and connect with friends worldwide.",
+    "size": 185,
+    "reviews": 12400000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 320000 },
+      { "name": "3 star", "count": 890000 },
+      { "name": "4 star", "count": 2450000 },
+      { "name": "5 star", "count": 8450000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/id/64/300/300",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "description": "Simple, secure messaging and video calling app.",
+    "size": 78,
+    "reviews": 8900000,
+    "ratingAvg": 4.7,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 320000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 650000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 5750000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "Short videos, music, effects and creative content.",
+    "size": 145,
+    "reviews": 6750000,
+    "ratingAvg": 4.4,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 520000 },
+      { "name": "2 star", "count": 410000 },
+      { "name": "3 star", "count": 980000 },
+      { "name": "4 star", "count": 1850000 },
+      { "name": "5 star", "count": 2990000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/id/180/300/300",
+    "title": "Canva",
+    "companyName": "Canva",
+    "description": "Easy graphic design and photo editing tool.",
+    "size": 92,
+    "reviews": 2450000,
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 85000 },
+      { "name": "2 star", "count": 65000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 680000 },
+      { "name": "5 star", "count": 1410000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Spotify",
+    "companyName": "Spotify",
+    "description": "Music, podcasts and playlists streaming.",
+    "size": 68,
+    "reviews": 3850000,
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 145000 },
+      { "name": "3 star", "count": 480000 },
+      { "name": "4 star", "count": 1120000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/id/237/300/300",
+    "title": "YouTube",
+    "companyName": "Google",
+    "description": "Watch, share and upload videos.",
+    "size": 210,
+    "reviews": 15200000,
+    "ratingAvg": 4.3,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 890000 },
+      { "name": "2 star", "count": 670000 },
+      { "name": "3 star", "count": 1450000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/id/180/300/300",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "description": "Learn languages in a fun and effective way.",
+    "size": 85,
+    "reviews": 1850000,
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 65000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 520000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Zoom",
+    "companyName": "Zoom Video",
+    "description": "Video meetings and online collaboration.",
+    "size": 95,
+    "reviews": 3200000,
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 190000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 890000 },
+      { "name": "5 star", "count": 1390000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/id/133/300/300",
+    "title": "Gmail",
+    "companyName": "Google",
+    "description": "Secure email with smart features.",
+    "size": 45,
+    "reviews": 4500000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 85000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 1250000 },
+      { "name": "5 star", "count": 2720000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "PUBG Mobile",
+    "companyName": "Krafton",
+    "description": "Battle Royale game with realistic graphics.",
+    "size": 520,
+    "reviews": 6800000,
+    "ratingAvg": 4.1,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 650000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 890000 },
+      { "name": "4 star", "count": 1450000 },
+      { "name": "5 star", "count": 3390000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Netflix",
+    "companyName": "Netflix",
+    "description": "Watch movies, TV shows and series.",
+    "size": 68,
+    "reviews": 2850000,
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 95000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 780000 },
+      { "name": "5 star", "count": 1470000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/id/180/300/300",
+    "title": "Photoshop Express",
+    "companyName": "Adobe",
+    "description": "Professional photo editing on mobile.",
+    "size": 125,
+    "reviews": 980000,
+    "ratingAvg": 4.5,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "2 star", "count": 32000 },
+      { "name": "3 star", "count": 95000 },
+      { "name": "4 star", "count": 280000 },
+      { "name": "5 star", "count": 528000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Amazon",
+    "companyName": "Amazon",
+    "description": "Online shopping with fast delivery.",
+    "size": 142,
+    "reviews": 3250000,
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 145000 },
+      { "name": "3 star", "count": 380000 },
+      { "name": "4 star", "count": 890000 },
+      { "name": "5 star", "count": 1620000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "description": "Navigation, maps and local business search.",
+    "size": 95,
+    "reviews": 4250000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 98000 },
+      { "name": "2 star", "count": 65000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 980000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "Truecaller",
+    "companyName": "Truecaller",
+    "description": "Caller ID and spam protection.",
+    "size": 45,
+    "reviews": 1850000,
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 145000 },
+      { "name": "2 star", "count": 98000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 520000 },
+      { "name": "5 star", "count": 880000 }
+    ]
+  }
+]
