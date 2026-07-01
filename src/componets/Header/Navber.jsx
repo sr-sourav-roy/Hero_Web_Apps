@@ -46,7 +46,9 @@ const Navber = () => {
           </ul>
         </div>
         <div className="flex items-center gap-2.5">
-          <img className="w-7 lg:w-10 " src={Logo} alt="" />
+          <Link to="/">
+            <img className="w-7 lg:w-10 " src={Logo} alt="" />
+          </Link>
           <h1 className="text-xl lg:text-2xl font-bold text-[#9F62F2]">
             HERO.IO
           </h1>

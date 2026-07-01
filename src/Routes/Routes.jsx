@@ -5,6 +5,7 @@ import PagesError from "../pages/PagesError/PagesError";
 // import Github from "../pages/GitHub/Github";
 import Home from "../pages/Home/Home";
 import Apps02 from "../pages/Apps02/Apps02";
+import AppDetails from "../pages/AppDetails/AppDetails";
 
 export const router = createBrowserRouter([
   {
@@ -14,14 +15,19 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        loader: () => fetch("allApps01.json"),
+        loader: () => fetch("allApps.json"),
         path: "/",
         Component: Home,
       },
       {
         path: "/apps",
-        loader: () => fetch("allApps02.json"),
+        loader: () => fetch("allApps.json"),
         Component: Apps02,
+      },
+      {
+        path: "/appDetails/:id",
+        loader: () => fetch("allApps.json"),
+        Component: AppDetails,
       },
     ],
   },
