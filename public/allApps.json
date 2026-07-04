@@ -178,5 +178,41 @@
       { "name": "4 star", "count": 1450000 },
       { "name": "5 star", "count": 3390000 }
     ]
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/id/133/300/300",
+    "title": "Gmail",
+    "companyName": "Google",
+    "description": "Gmail is Google's free email service known for its smart features and excellent organization tools. It offers a large storage capacity, powerful search functionality, and integration with other Google services. Users can easily manage emails, create labels, set up filters, and enjoy strong spam protection. Gmail has become one of the most widely used email services in the world.",
+    "size": 45,
+    "reviews": 4500000,
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 85000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 1250000 },
+      { "name": "5 star", "count": 2720000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/id/201/300/300",
+    "title": "PUBG Mobile",
+    "companyName": "Krafton",
+    "description": "PUBG Mobile is a popular battle royale game where players fight against each other on a large map until only one team remains. It offers realistic graphics, various weapons, vehicles, and exciting gameplay modes. The game requires strategy, teamwork, and quick reflexes. It has gained massive popularity among gaming enthusiasts worldwide and continues to host major tournaments and events.",
+    "size": 520,
+    "reviews": 6800000,
+    "ratingAvg": 4.1,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 650000 },
+      { "name": "2 star", "count": 420000 },
+      { "name": "3 star", "count": 890000 },
+      { "name": "4 star", "count": 1450000 },
+      { "name": "5 star", "count": 3390000 }
+    ]
   }
 ]
