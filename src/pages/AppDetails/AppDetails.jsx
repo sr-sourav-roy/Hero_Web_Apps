@@ -5,6 +5,7 @@ import { GoDownload } from "react-icons/go";
 import { FaRegStar } from "react-icons/fa";
 import { TbFileLike } from "react-icons/tb";
 import AppCharts from "./AppCharts";
+import { addToStoreApp } from "../../Utility/AdToBD";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -24,6 +25,12 @@ const AppDetails = () => {
     ratings,
   } = singleApps;
   // console.log(ratings);
+  // button setup or new commet----""
+  const handleApp = (id) => {
+    console.log("sourav", id);
+
+    addToStoreApp(id);
+  };
 
   return (
     <div className="lg:mt-15">
@@ -60,7 +67,10 @@ const AppDetails = () => {
             </div>
           </div>
           {/* button */}
-          <button className="btn btn-secondary mt-3.5 mb-2">
+          <button
+            onClick={() => handleApp(id)}
+            className="btn btn-secondary mt-3.5 mb-2"
+          >
             Install Now ({size}MB)
           </button>
         </div>
