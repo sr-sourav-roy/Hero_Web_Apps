@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
-import { getStoreApp } from "../../Utility/AdToBD";
+import { getStoreApp, removeFromStore } from "../../Utility/AdToBD";
 import Instalations from "./Instalations";
 
 const Installations = () => {
@@ -8,16 +8,23 @@ const Installations = () => {
   const [sort, setSort] = useState("Default");
   const data = useLoaderData();
 
-  useEffect(() => {
+  // load installed apps
+  const loadInstalledApps = () => {
     const storeAppData = getStoreApp();
     const convertedStortApps = storeAppData.map((id) => parseInt(id));
-
     const myInstallations = data.filter((app) =>
       convertedStortApps.includes(app.id),
     );
-
     setInstallation(myInstallations);
+  };
+  useEffect(() => {
+    loadInstalledApps();
   }, [data]);
+
+  const handleUninstall = (id) => {
+    removeFromStore(id); // remove from localStorage
+    loadInstalledApps(); // refresh the list
+  };
 
   // Fixed Sort Function
   const handleSort = (type) => {
@@ -77,7 +84,11 @@ const Installations = () => {
       {/* Apps List */}
       <div>
         {installation.map((appData) => (
-          <Instalations key={appData.id} appData={appData} />
+          <Instalations
+            key={appData.id}
+            appData={appData}
+            onUninstall={handleUninstall}
+          />
         ))}
       </div>
     </div>

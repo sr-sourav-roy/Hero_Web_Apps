@@ -2,8 +2,14 @@ import React from "react";
 import { CiStar } from "react-icons/ci";
 import { AiOutlineDownload } from "react-icons/ai";
 
-const Instalations = ({ appData }) => {
+const Instalations = ({ appData, onUninstall }) => {
   const { image, title, size, ratingAvg, downloads } = appData;
+
+  const handleUninstall = () => {
+    if (window.confirm(`Are you sure you want to uninstall ${title}?`)) {
+      onUninstall(appData.id);
+    }
+  };
 
   return (
     <div className="bg-[#f6f4f4] mt-8 mb-8 p-4 md:p-6 rounded-2xl">
@@ -39,7 +45,10 @@ const Instalations = ({ appData }) => {
 
         {/* Right Side - Button */}
         <div className="flex-shrink-0 pt-2 sm:pt-0">
-          <button className="px-6 py-3 border border-[#9F62F2] text-[#9F62F2] hover:bg-[#00D390] hover:text-white hover:border-[#00D390] rounded-xl font-medium transition-all w-full sm:w-auto">
+          <button
+            onClick={handleUninstall}
+            className="px-6 py-3 border border-[#9F62F2] text-[#9F62F2] hover:bg-[#00D390] hover:text-white hover:border-[#00D390] rounded-xl font-medium transition-all w-full sm:w-auto"
+          >
             Uninstall
           </button>
         </div>

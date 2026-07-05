@@ -1,25 +1,32 @@
-// JSON.parse() দিয়ে সেই স্ট্রিংকে আবার অ্যারে বানিয়ে দেয়।
+// Utility File: AdToBD.js
+
+// Get all installed apps
 const getStoreApp = () => {
   const storeAppSTR = localStorage.getItem("Installation");
-
-  if (storeAppSTR) {
-    const storeAppData = JSON.parse(storeAppSTR);
-    return storeAppData;
-  } else {
-    return [];
-  }
+  return storeAppSTR ? JSON.parse(storeAppSTR) : [];
 };
 
+// Add app to installed list
 const addToStoreApp = (id) => {
   const storeAppData = getStoreApp();
 
   if (storeAppData.includes(id)) {
-    alert("it's already exist..😁");
+    alert("It's already installed 😁");
   } else {
     storeAppData.push(id);
-    const data = JSON.stringify(storeAppData);
-    localStorage.setItem("Installation", data);
+    localStorage.setItem("Installation", JSON.stringify(storeAppData));
   }
 };
 
-export { addToStoreApp, getStoreApp };
+// Remove app from installed list
+const removeFromStore = (id) => {
+  const storedApps = getStoreApp();
+
+  const remaining = storedApps.filter(
+    (appId) => parseInt(appId) !== parseInt(id),
+  );
+
+  localStorage.setItem("Installation", JSON.stringify(remaining));
+};
+
+export { addToStoreApp, getStoreApp, removeFromStore };
