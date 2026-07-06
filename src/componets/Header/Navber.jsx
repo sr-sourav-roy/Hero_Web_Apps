@@ -1,20 +1,49 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
-import { Link } from "react-router";
+import { NavLink, Link } from "react-router";
 import { Computer } from "lucide-react";
 
 const Navber = () => {
   const links = (
     <>
-      <Link to="/">
-        <li className="m-2 font-semibold">Home</li>
-      </Link>
-      <Link to="/apps">
-        <li className="m-2 font-semibold">Apps</li>
-      </Link>
-      <Link to="/installation">
-        <li className="m-2 font-semibold">Installation</li>
-      </Link>
+      <li>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? "m-2 font-semibold border-b-2 border-[#9F62F2] text-[#9F62F2] pb-1"
+              : "m-2 font-semibold hover:text-[#9F62F2] transition-colors"
+          }
+        >
+          Home
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/apps"
+          className={({ isActive }) =>
+            isActive
+              ? "m-2 font-semibold border-b-2 border-[#9F62F2] text-[#9F62F2] pb-1"
+              : "m-2 font-semibold hover:text-[#9F62F2] transition-colors"
+          }
+        >
+          Apps
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/installation"
+          className={({ isActive }) =>
+            isActive
+              ? "m-2 font-semibold border-b-2 border-[#9F62F2] text-[#9F62F2] pb-1"
+              : "m-2 font-semibold hover:text-[#9F62F2] transition-colors"
+          }
+        >
+          Installation
+        </NavLink>
+      </li>
     </>
   );
   return (
