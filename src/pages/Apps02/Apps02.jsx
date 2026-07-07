@@ -26,6 +26,7 @@ const Apps02 = () => {
 
   return (
     <div>
+      <title>Apps</title>
       <h1 className="text-center text-2xl lg:text-4xl font-semibold">
         Our All Applications
       </h1>

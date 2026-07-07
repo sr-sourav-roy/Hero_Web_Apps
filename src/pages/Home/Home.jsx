@@ -7,6 +7,7 @@ const Home = () => {
   const data = useLoaderData();
   return (
     <div>
+      <title>Home</title>
       {/* <h1>This is Home</h1> */}
       <Banner></Banner>
       {/* Trending Apps */}

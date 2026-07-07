@@ -43,6 +43,7 @@ const Installations = () => {
 
   return (
     <div className="mt-10">
+      <title>installtion</title>
       <h1 className="text-3xl font-bold text-center">Your Installed Apps</h1>
       <small className="flex justify-center text-center mt-2 text-gray-500">
         Explore All Trending Apps on the Market developed by us

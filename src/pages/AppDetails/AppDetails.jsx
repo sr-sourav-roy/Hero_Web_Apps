@@ -43,6 +43,16 @@ const AppDetails = () => {
 
   return (
     <div className="lg:mt-15">
+      {/* meta dada check this number */}
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+      ></meta>
+      <meta
+        name="description"
+        content="This is a short description of my website"
+      ></meta>
+      <title>{title}</title>
       {/* apps items */}
       <div className="card lg:card-side">
         <figure>
